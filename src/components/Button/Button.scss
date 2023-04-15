@@ -1,0 +1,28 @@
+.button {
+    border: 1px solid #052641;
+    border-radius: 50px;
+    padding: 5px 12px;
+    cursor: pointer;
+    
+    &--primary {
+        background-color: #fff;
+        color: #052641;
+
+        &:hover {
+            background-color: #052641;
+            color: #fff;
+        }
+    }
+
+    &--active, &--secondary {
+        background-color: #052641;
+        color: #fff;
+
+        &:hover {
+            background-color: #fff;
+            color: #052641;
+        }
+    }
+
+    
+}

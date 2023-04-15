@@ -1,0 +1,95 @@
+.movie-detail {
+    p {
+        margin: 0;
+    }
+    
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        background-color: #052641;
+        color: #fff;
+        padding: 32px 16px;
+
+        img {
+            border-radius: 10px;
+            max-width: 250px;
+            height: auto;
+            align-self: center;
+        }
+    }
+
+    &__title {
+        font-size: 20px;
+        font-weight: 700;
+        padding: 18px 0;
+    }
+
+    &__date {
+        font-size: 12px;
+        padding-bottom: 12px;
+    }
+
+    &__average {
+        display: flex;
+        flex-direction: revert;
+        align-items: center;
+
+        p {
+            padding-left: 10px;
+        }
+    }
+
+    &__sinopsis {
+        padding-top: 50px;
+
+        label {
+            display: block;
+            font-size: 16px;
+            font-weight: 700;
+            padding-bottom: 5px;
+        }
+    }
+
+    &__cast-recommendations {
+        padding: 50px 16px 0;
+
+        label {
+            display: block;
+            font-size: 24px;
+            font-weight: 700;
+            padding-bottom: 30px;
+        }
+    }
+
+    &__info {
+        padding-top: 22px;
+        font-size: 12px;
+
+        label {
+            font-weight: 700;
+        }
+
+        p {
+            padding-bottom: 16px;
+        }
+    }
+
+    &__cast-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .card {
+            margin: 0 8px;
+        }
+    }
+
+    &__button {
+        text-align: center;
+        margin: 30px 0;
+
+        button {
+            width: 110px;
+        }
+    }
+}

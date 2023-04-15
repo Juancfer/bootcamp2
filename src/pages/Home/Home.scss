@@ -1,0 +1,63 @@
+.home {
+    &__img {
+        width: 100%;
+        height: 365px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+    }
+
+    &__text {
+        color: white;
+        padding: 0 20px;
+        font-weight: 700;
+        z-index: 1;
+
+        h2 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    &__img-hero {
+        position: absolute;
+    }
+
+    &__last-movies {
+        display: flex;
+        flex-direction: column;
+        background-color: #052641;
+
+        h2 {
+            color: #fff;
+            font-size: 24px;
+            font-weight: 700;
+            margin: 28px 16px;
+        }
+    }
+
+    &__hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    &__hero-info {
+        position: absolute;
+        color: #fff;
+        padding: 0 30px;
+
+        label {
+            font-size: 32px;
+            font-weight: 700;
+        }
+    }  
+}

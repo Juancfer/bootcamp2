@@ -1,0 +1,43 @@
+.filter {
+    padding: 0 15px;
+    
+    &__info {
+        margin: 22px 0;
+
+        p {
+            font-size: 24px;
+            font-weight: 700;
+            margin: 10px 0;
+        }
+
+        button {
+            &:last-child {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    &__cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        margin: 0 8px 50px;
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 48px;
+
+        button {
+            width: 105px;
+            text-transform: uppercase;
+        }
+    }
+}
