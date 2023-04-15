@@ -10,6 +10,7 @@ import Quiz from './pages/Quiz/Quiz';
 import './App.scss';
 import Footer from './components/Footer/Footer';
 
+/// language selector
 export const LanguageSelector = createContext();
 
 function App() {
